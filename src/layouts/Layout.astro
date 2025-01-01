@@ -13,11 +13,12 @@ import AsciiComment from "../components/AsciiComment.astro";
 		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Muzhawir Amri - Software Developer</title>
-		<AsciiComment />
 	</head>
 
-	<body class="container mx-auto px-5">
+	<body>
 		<AsciiComment />
-		<slot />
+		<div class="container mx-auto px-4">
+			<slot />
+		</div>
 	</body>
 </html>
