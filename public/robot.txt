@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muzhawir.com/sitemap-index.xml
